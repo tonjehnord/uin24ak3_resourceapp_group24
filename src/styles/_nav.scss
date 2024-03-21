@@ -1,0 +1,31 @@
+nav {
+
+    ul {
+        display: flex;
+        flex-wrap: wrap; 
+        list-style-type: none;
+        gap: 1rem;
+        margin-bottom: 1.4rem;
+        padding: 0;
+    }
+
+        a{
+            background-color: var(--darkblue);
+            padding: 1.5rem 4rem;
+            color: var(--white);
+            font-weight: bold;
+            border: none;
+            font-size: medium;   
+            list-style-type: none;
+
+            &:hover {
+                background-color: var(--white);
+                color: var(--darkblue);
+            }
+
+            &.active {
+                background-color: var(--white);
+                color: var(--darkblue);
+            }
+        } 
+}

@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 968px;
+    height: 120px;
+    background-color: var(--white);
+    padding: 5rem;
+
+    article {
+        text-align: left;
+        
+        h2 {
+            color: var(--darkblue);
+        }
+
+        a {
+            color: var(--lightblue);
+            text-decoration: underline; 
+        }
+    }
+}
