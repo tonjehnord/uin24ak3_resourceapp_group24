@@ -21,14 +21,13 @@ body {
 }
 
 nav {
-    padding: 6rem 0 0 0;
 
     ul {
         display: flex;
         flex-wrap: wrap; 
         list-style-type: none;
         gap: 1rem;
-        margin-bottom: 0;
+        margin-bottom: 1.4rem;
         padding: 0;
     }
 
@@ -56,9 +55,8 @@ nav {
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 945px;
-    height: 220px;
+    max-width: 968px;
+    height: 120px;
     background-color: var(--white);
     padding: 5rem;
 
