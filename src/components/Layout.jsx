@@ -1,13 +1,13 @@
-export default function Layout(){
+import Nav from './Nav'
+
+export default function Layout( {children} ){
     return(
         <>
         <header>
-            <nav>
-
-            </nav>
+            <Nav />
         </header>
         <main>
-            
+            {children}
         </main>
         </>
     )
