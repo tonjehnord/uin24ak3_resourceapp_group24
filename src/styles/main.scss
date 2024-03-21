@@ -44,12 +44,12 @@ nav {
                 background-color: var(--white);
                 color: var(--darkblue);
             }
-        }
 
-    .active {
-        background-color: var(--white);
-        color: var(--darkblue);
-    }
+            &.active {
+                background-color: var(--white);
+                color: var(--darkblue);
+            }
+        }
 }
 
 main {
