@@ -18,3 +18,8 @@ function App() {
 }
 
 export default App
+
+//Kilder:
+// LMS
+// UIN2024_coursebase
+// Forelesninger
