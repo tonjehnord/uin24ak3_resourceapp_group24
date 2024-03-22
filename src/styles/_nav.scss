@@ -7,25 +7,29 @@ nav {
         gap: 1rem;
         margin-bottom: 1.4rem;
         padding: 0;
-    }
+    
+        li{
+            padding-top: 2.5rem;
+        
+            a{
+                background-color: var(--darkblue);
+                padding: 1.5rem 4rem;
+                color: var(--white);
+                font-weight: bold;
+                border: none;
+                font-size: medium;   
+                list-style-type: none;
 
-        a{
-            background-color: var(--darkblue);
-            padding: 1.5rem 4rem;
-            color: var(--white);
-            font-weight: bold;
-            border: none;
-            font-size: medium;   
-            list-style-type: none;
+                &:hover {
+                    background-color: var(--white);
+                    color: var(--darkblue);
+                }
 
-            &:hover {
-                background-color: var(--white);
-                color: var(--darkblue);
-            }
-
-            &.active {
-                background-color: var(--white);
-                color: var(--darkblue);
-            }
-        } 
+                &.active {
+                    background-color: var(--white);
+                    color: var(--darkblue);
+                }
+            } 
+        }
+    }          
 }
